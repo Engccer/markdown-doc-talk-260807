@@ -147,7 +147,8 @@ python -m http.server 8765
 
 ## 배포
 
-아직 GitHub 저장소를 만들지 않았다. 배포하기로 하면 260806과 같은 방식(공개 저장소 + GitHub Pages, `main` 브랜치 루트 서빙)을 따른다.
+- **GitHub Pages 배포.** 저장소 `Engccer/markdown-doc-talk-260807`(공개), 배포 URL은 **https://engccer.github.io/markdown-doc-talk-260807/** 이다. `main` 브랜치 루트를 그대로 서빙하므로 push하면 1~2분 뒤 반영된다.
+- 이 덱은 `education/blindusingai/` 안에 있지만 **자체 git 저장소**다. 상위 폴더는 git 관리 밖이므로 커밋·push는 이 폴더에서 한다.
 
 **`file://`에서도 깨지지 않게 유지한다.** `fetch`를 쓰지 않고 상대 경로 오디오만 쓰는 현재 구조가 그 조건이다. 행사장 네트워크가 막히면 폴더째 옮기는 경로로 폴백한다.
 
